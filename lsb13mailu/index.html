@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>TASK MANAGER</h1>
+        <div class="formulario">
+            <input id="taskinput" type="text" placeholder="What do you have pending?">
+            <button id="submitButton" onclick="createTask()">Publish</button>
+        </div>
+    </div>
+    <div class="maincontainer">
+
+    <div class="contenedor2" >
+            <p>To do</p>
+        <div id="to-do">
+            
+        </div>
+        </div>
+
+    <div class="contenedor2" >
+        <p>Doing</p>
+    <div id="doing">
+        
+    </div>
+    </div>
+
+    <div class="contenedor2" >
+        <p>Done</p>
+    <div id="done">
+        
+    </div>
+    </div>
+
+</div>
+
+<script src="task.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
